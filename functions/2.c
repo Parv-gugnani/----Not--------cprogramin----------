@@ -1,6 +1,5 @@
 //4sept
 #include <stdio.h>
-
 double square(double num)
 {
     return (num * num);
