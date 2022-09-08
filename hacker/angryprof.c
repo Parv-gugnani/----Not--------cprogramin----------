@@ -4,10 +4,11 @@
 int main()
 {
     int i,k,n,t,time;
-    int co=0;
+    int co;
     scanf("%d",&t);
     while(t--)
     {
+        co=0;
         scanf("%d %d", &n,&k);
         for(i=0;i<n;i++)
         {
