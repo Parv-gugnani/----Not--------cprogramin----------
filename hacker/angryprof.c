@@ -4,8 +4,8 @@
 int main()
 {
     int i,k,n,t,time;
-    int c=0;
-    scanf("%d",&t)
+    int co=0;
+    scanf("%d",&t);
     while(t--)
     {
         scanf("%d %d", &n,&k);
@@ -14,10 +14,10 @@ int main()
             scanf("%d", &time);
             if(time<=0)
             {
-                count++;
+                co++;
             }
         }
-        puts((count<k)?"YES" : "NO");
+        puts((co<k)?"YES" : "NO");
     }
     return 0;
 }
