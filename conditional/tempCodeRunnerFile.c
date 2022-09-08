@@ -5,20 +5,15 @@
 // 1 - area=l*w; /rectangle
 // 2 - area=.5*b*h; // traingle
 // 3 - area=3.14*r*r; //area of circle
-
 #include <stdio.h>
 void main() {
   int l, w, b, h, r;
   int choice;
   float area;
   printf("Enter 1 for the area of rectangle\n");
-
   printf("Enter 2 for the area of traingle\n");
-
   printf("Enter 3 for the area of circle\n");
-
   scanf("%d", &choice);
-
   switch (choice) {
     //
   case 1:

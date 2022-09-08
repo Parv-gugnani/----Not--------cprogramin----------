@@ -9,8 +9,9 @@ int main() {
   printf("Input the character :");
   scanf("%c", &sign);
 
-  if ((sign >= 'a' && sign <= 'z') || (sign >= 'A' && sign <= 'Z')) {
-    printf("This is an alphabet.\n");
+  if ((sign >= 'a' && sign <= 'z') || (sign >= 'A' && sign <= 'Z')) 
+  {
+       printf("This is an alphabet.\n");
   } else if (sign >= '0' && sign <= '9') {
     printf("This is a digit");
   } else
